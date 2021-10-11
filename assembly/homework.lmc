@@ -3,5 +3,27 @@
 ;; Paste the code below, along with the output
 
 ;; CODE   =====================================
-
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        ADD ONE
+        OUT
+        HLT
+ONE     DAT 1
 ;; OUTPUT =====================================
+12345678910
