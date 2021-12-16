@@ -126,7 +126,7 @@ Expected equality of these values:
     Which is: 1
   1ull << 63ull
     Which is: 9223372036854775808
-[  FAILED  ] xy_to_bitval.good_values (1 ms)
+[  FAILED  ] xy_to_bitval.good_values (0 ms)
 [ RUN      ] xy_to_bitval.bad_values
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:37: Failure
 Expected equality of these values:
@@ -149,21 +149,21 @@ Expected equality of these values:
     Which is: 1
   0
 [  FAILED  ] xy_to_bitval.bad_values (0 ms)
-[----------] 2 tests from xy_to_bitval (1 ms total)
+[----------] 2 tests from xy_to_bitval (0 ms total)
 
 [----------] 2 tests from add_ship_horizontal
 [ RUN      ] add_ship_horizontal.empty_ship
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:51: Failure
 Expected equality of these values:
   add_ship_horizontal(player_info,1,8,0)
-    Which is: 1214030008
+    Which is: -384003912
   1
 [  FAILED  ] add_ship_horizontal.empty_ship (0 ms)
 [ RUN      ] add_ship_horizontal.load_ship
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:61: Failure
 Expected equality of these values:
   add_ship_horizontal(player_info,0,0,5)
-    Which is: 1214030008
+    Which is: -384003912
   1
 [  FAILED  ] add_ship_horizontal.load_ship (0 ms)
 [----------] 2 tests from add_ship_horizontal (0 ms total)
@@ -173,14 +173,14 @@ Expected equality of these values:
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:72: Failure
 Expected equality of these values:
   add_ship_vertical(player_info,1,8,0)
-    Which is: 1214030008
+    Which is: -384003912
   1
 [  FAILED  ] add_ship_vertical.empty_ship (0 ms)
 [ RUN      ] add_ship_vertical.load_ship
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:82: Failure
 Expected equality of these values:
   add_ship_vertical(player_info,0,0,5)
-    Which is: 1214030008
+    Which is: -384003912
   1
 [  FAILED  ] add_ship_vertical.load_ship (0 ms)
 [----------] 2 tests from add_ship_vertical (0 ms total)
@@ -190,21 +190,21 @@ Expected equality of these values:
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:93: Failure
 Expected equality of these values:
   game_load_board(gameon,0,__null)
-    Which is: 1214030000
+    Which is: -384003920
   -1
 [  FAILED  ] game_load_board.empty_spec (0 ms)
 [ RUN      ] game_load_board.incomplete_spec
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:101: Failure
 Expected equality of these values:
   game_load_board(gameon,0,spec)
-    Which is: 1214030000
+    Which is: -384003920
   -1
 [  FAILED  ] game_load_board.incomplete_spec (0 ms)
 [ RUN      ] game_load_board.valid_spec
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game1.cpp:131: Failure
 Expected equality of these values:
   game_load_board(gameon, 0, spec)
-    Which is: 1214030000
+    Which is: -384003920
   1
 [  FAILED  ] game_load_board.valid_spec (0 ms)
 [----------] 3 tests from game_load_board (0 ms total)
@@ -214,28 +214,28 @@ Expected equality of these values:
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:12: Failure
 Expected equality of these values:
   game_fire(gameon,1,0,0)
-    Which is: 1214030000
+    Which is: -384003920
   0
 [  FAILED  ] game_fire.empty_game (0 ms)
 [ RUN      ] game_fire.hit_fire
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:21: Failure
 Expected equality of these values:
   game_fire(gameon,1,0,0)
-    Which is: 1214030000
+    Which is: -384003920
   1
 [  FAILED  ] game_fire.hit_fire (0 ms)
 [ RUN      ] game_fire.hit_fire2
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:45: Failure
 Expected equality of these values:
   game_fire(gameon,0,0,0)
-    Which is: 1214030000
+    Which is: -384003920
   1
 [  FAILED  ] game_fire.hit_fire2 (0 ms)
 [ RUN      ] game_fire.miss_fire
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:70: Failure
 Expected equality of these values:
   game_fire(gameon,1,5,0)
-    Which is: 1214030000
+    Which is: -384003920
   0
 [  FAILED  ] game_fire.miss_fire (0 ms)
 [ RUN      ] game_fire.miss_fire2
@@ -251,14 +251,14 @@ Expected equality of these values:
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:125: Failure
 Expected equality of these values:
   game_fire(gameon,0,1,0)
-    Which is: 1214030000
+    Which is: -384003920
   0
 [  FAILED  ] game_fire.miss_fire2 (0 ms)
 [ RUN      ] game_fire.invalid_fire
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:180: Failure
 Expected equality of these values:
   game_fire(gameon,1,8,0)
-    Which is: 1214030000
+    Which is: -384003920
   0
 [  FAILED  ] game_fire.invalid_fire (0 ms)
 [----------] 6 tests from game_fire (0 ms total)
@@ -268,7 +268,7 @@ Expected equality of these values:
 /home/carson/Projects/msu/csci-366-fall2021/grading/scripts/repos/andrew_cilker/c/battlebit/googletest/game2.cpp:194: Failure
 Expected equality of these values:
   game_load_board(pGame, 0, spec)
-    Which is: 1214030000
+    Which is: -384003920
   1
 [  FAILED  ] game_status.is_correct (0 ms)
 [----------] 1 test from game_status (0 ms total)
@@ -341,11 +341,11 @@ With diff:
 +6                 
 +7 M               \n
 
-[  FAILED  ] repl_print_hits.print_miss (0 ms)
-[----------] 2 tests from repl_print_hits (0 ms total)
+[  FAILED  ] repl_print_hits.print_miss (1 ms)
+[----------] 2 tests from repl_print_hits (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 23 tests from 9 test suites ran. (1 ms total)
+[==========] 23 tests from 9 test suites ran. (2 ms total)
 [  PASSED  ] 4 tests.
 [  FAILED  ] 19 tests, listed below:
 [  FAILED  ] xy_to_bitval.good_values
